@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CWS Piekarski – Profesjonalny Serwis Samochodowy w Kozienicach</title>
+    <meta name="description" content="CWS Piekarski – Blacharnia, Lakiernia, Mechanika, SKP, Holowanie 24h. Brzeźnica 99, 26-900 Kozienice. Assistance 602 616 999." />
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#0f172a",   // granat
+                        accent: "#dc2626"     // czerwony assistance
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-white text-gray-800">
+
+<!-- HERO -->
+<section class="min-h-screen bg-primary text-white flex items-center justify-center text-center px-6">
+    <div>
+        <h1 class="text-4xl md:text-6xl font-bold mb-6">
+            CWS Piekarski
+        </h1>
+        <p class="text-lg md:text-xl mb-8">
+            Profesjonalny Serwis Samochodowy w Kozienicach
+        </p>
+
+        <div class="flex flex-col md:flex-row gap-4 justify-center">
+            <a href="#kontakt" class="bg-white text-primary px-8 py-3 rounded-lg font-semibold hover:bg-gray-200 transition">
+                Umów wizytę
+            </a>
+            <a href="tel:602616999" class="bg-accent px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition">
+                Assistance 24h – 602 616 999
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- USŁUGI -->
+<section class="py-20 px-6 max-w-6xl mx-auto text-center">
+    <h2 class="text-3xl font-bold mb-12">Nasze Usługi</h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 shadow-lg rounded-xl hover:shadow-2xl transition">
+            <h3 class="text-xl font-semibold mb-4">Blacharnia i Lakiernia</h3>
+            <p>Naprawy powypadkowe, likwidacja szkód, kompleksowa obsługa.</p>
+        </div>
+
+        <div class="p-6 shadow-lg rounded-xl hover:shadow-2xl transition">
+            <h3 class="text-xl font-semibold mb-4">Mechanika Pojazdowa</h3>
+            <p>Diagnostyka, naprawy bieżące, serwis i przeglądy.</p>
+        </div>
+
+        <div class="p-6 shadow-lg rounded-xl hover:shadow-2xl transition">
+            <h3 class="text-xl font-semibold mb-4">Stacja Kontroli Pojazdów</h3>
+            <p>Badania techniczne samochodów osobowych i dostawczych.</p>
+        </div>
+    </div>
+</section>
+
+<!-- ASSISTANCE -->
+<section class="bg-gray-900 text-white py
 
